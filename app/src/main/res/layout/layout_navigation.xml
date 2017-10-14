@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#434242"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lazy Coder"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textColor="#999696"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android apps developer"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="0.3dp"
+        android:background="@drawable/single_line"/>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/navRl"
+            android:paddingLeft="10dp"
+            android:background="@drawable/nav_option_background"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/navicon1"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/img"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingLeft="10dp"
+            android:background="@drawable/nav_option_background"
+            android:id="@+id/navGuideRl"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/navicon1"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/img2"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guide"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="0.3dp"
+        android:background="@drawable/single_line"/>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:paddingLeft="10dp"
+            android:background="@drawable/nav_option_background"
+            android:id="@+id/navAboutUrlRl"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img5"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/navicon1"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/img5"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/navUrlRl"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="50dp"
+            >
+            <TextView
+                android:textAllCaps="true"
+                android:textColor="#8b31b4"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LazyCoder.6te.net"
+                />
+            <ImageView
+                android:layout_marginRight="30dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/navicon5"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

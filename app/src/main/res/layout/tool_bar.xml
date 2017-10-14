@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_toLeftOf="@+id/navbar_right"
+            android:paddingRight="70dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Navigation"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            />
+        <ImageButton
+            android:id="@+id/navbar_right"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/svpn__country_flag"/>
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>
