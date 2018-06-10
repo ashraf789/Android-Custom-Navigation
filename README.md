@@ -16,3 +16,7 @@ if you don't like android default navigation system(option menu) or looking for 
 
 </br>
 <img height src="https://i.imgur.com/kr8ngvK.png" />
+</br>
+
+## License
+This project is licensed under the MIT License - see the [License File](LICENSE) for details
