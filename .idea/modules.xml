@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android-Custom-Navigation.iml" filepath="$PROJECT_DIR$/Android-Custom-Navigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Android-Custom-Navigation.iml" filepath="$PROJECT_DIR$/.idea/Android-Custom-Navigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/NavigrationPractice.iml" filepath="$PROJECT_DIR$/NavigrationPractice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
