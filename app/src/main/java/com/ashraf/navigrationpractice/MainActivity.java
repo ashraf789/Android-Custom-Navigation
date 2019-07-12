@@ -19,8 +19,8 @@ import static android.support.design.widget.Snackbar.LENGTH_LONG;
 import static android.support.design.widget.Snackbar.make;
 
 /*
-* developer: Lazy Coder
-* email: syedashrafullah15@gmail
+* Author: Lazy Coder
+* Email: syedashrafullah15@gmail.com
 * Date 10.04.17
 * */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
